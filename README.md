@@ -1,10 +1,11 @@
 Sportcoin integration/staging tree
 ================================
 
-http://www.sportcoin.org
+http://www.sportcoin.ws
 
 Copyright (c) 2009-2013 Bitcoin Developers
-Copyright (c) 2011-2013 Sportcoin Developers
+Copyright (c) 2011-2013 Litecoin Developers
+Copyright (c) 2014 Sportcoin Developers
 
 What is Sportcoin?
 ----------------
@@ -19,7 +20,7 @@ The rest is the same as Bitcoin.
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Sportcoin client sofware, see http://www.sportcoin.org.
+the Sportcoin client sofware, see http://www.sportcoin.ws.
 
 License
 -------
@@ -71,4 +72,3 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
     ./sportcoin-qt_test
-
