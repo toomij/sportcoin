@@ -1,0 +1,24 @@
+obj/leveldb.o: leveldb.cpp leveldb.h serialize.h allocators.h version.h \
+ clientversion.h /home/tommy/sportcoin/src/leveldb/include/leveldb/db.h \
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/iterator.h \
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/slice.h \
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/status.h \
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/options.h \
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/write_batch.h util.h \
+ uint256.h netbase.h compat.h \
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/env.h \
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/cache.h \
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/filter_policy.h \
+ /home/tommy/sportcoin/src/leveldb/helpers/memenv/memenv.h
+leveldb.cpp leveldb.h serialize.h allocators.h version.h :
+ clientversion.h /home/tommy/sportcoin/src/leveldb/include/leveldb/db.h :
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/iterator.h :
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/slice.h :
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/status.h :
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/options.h :
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/write_batch.h util.h :
+ uint256.h netbase.h compat.h :
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/env.h :
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/cache.h :
+ /home/tommy/sportcoin/src/leveldb/include/leveldb/filter_policy.h :
+ /home/tommy/sportcoin/src/leveldb/helpers/memenv/memenv.h :
